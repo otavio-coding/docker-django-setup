@@ -12,8 +12,9 @@ This repository serves as a quickstart for a containerized Django development en
 ```
 git clone https://github.com/otavio-coding/docker-django-setup.git 
 ```
+2. Rename dotenv/.env_example as dotenv/.env and set up your secret key
 
-2. Run Docker Compose:
+3. Run Docker Compose:
 ```
 docker compose up --build 
 ```
